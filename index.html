@@ -1,21 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi segunda pagina HTML</title>
+    <style>
+        body > * {
+            border: 1px solid black;
+        }
+        header {
+            height: 200px;
+            background-color: blueviolet;
+        }
+        nav {
+            /* height: 48px; */
+            background-color: blue;
+        }
+        main {
+            height: 600px;
+            background-color: rgb(47, 255, 217);
+        }
+        footer {
+            height: 200px;
+            background-color: rgb(182, 220, 254);
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            background-color: rgb(182, 220, 254);
+            justify-content: flex-end;
+        }
+        ul li {
+            padding: 10px;
+            width: 80px;
+            background-color: aliceblue;
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
-    <h1 style="background-color: aquamarine; font-family: sans-serif;">My Second Heading</h1>
-<p>My second paragraph.</p>
-<h2>Pagina de gatos</h2>
-<p>Link a la pagina de gatos.</p>
-<a href="https://cats.com/" target="_blank">
-    ¡Haz click aqui!
-</a><br /><br />
-<img src="https://i1.sndcdn.com/artworks-FyFibZw7XPiydjyx-UKRyag-t500x500.jpg" alt="Imagen Ricochet" height="200">
-<img src="/Clase-1/imagenes/Rico_-_Ricochet.webp" alt="Imagen 1" height="200">
-<img src="/Clase-1/imagenes/Rico_Colorado.webp" alt="Imagen 2" height="200">
-<body style="background-color:blueviolet;">
+<header>
+    Header
+    <p>Parrafo</p>
+</header>
+<nav>
+    Nav 
+    <ul>
+        <li>Inicio</li>
+        <li>Acerca de</li>
+        <li>Contacto</li>
+    </ul>
+</nav>
+<main>
+    Main
+</main>
+<footer>
+    Footer
+</footer>
 </body>
 </html>
